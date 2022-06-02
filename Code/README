@@ -1,0 +1,14 @@
+Para ejecutar en QEMU:
+ -Primero se abre en terminal la carpeta que contiene el ejecutable del programa
+ -Se ejecuta el comando "make"
+ -Luego para abrir en QEMU: make -C ./ run
+
+Controles del juego: 
+ -Movimeinto a la derecha: tecla derecha
+ -Movimeinto a la izquierda: tecla izquierda
+ -Disparar: Tecla espacio
+
+Caracteristica del juego:
+ -El nivel uno consiste en destruir todas las naves enemigas sin dejar que ninguna llegue al final del mapa, por cada nave que logre llegar se pierde una vida asi como tambien cuando se choca
+ contra la nave enemiga.
+ -El nivel 2 consiste en ir esquivando los meteoritos, por cada choque con meteorito se pierde una vida, asi tambien con el choque con las paredes.
